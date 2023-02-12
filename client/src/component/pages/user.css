@@ -1,0 +1,47 @@
+.user-page{
+    background: fixed;
+    background-color: antiquewhite;
+}
+.user-table-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .table-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .table-heading h3{ 
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .table-heading button{ 
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .pagination-main{
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    margin: 20px;
+  }
+
+
+  
